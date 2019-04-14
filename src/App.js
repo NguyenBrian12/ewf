@@ -8,69 +8,82 @@ import "./toothsy/css/magnific-popup.css";
 //import "./toothsy/css/owl.carousel.min.css";
 import "./toothsy/css/owl.theme.default.min.css";
 import "./App.css";
+import "./bower_components/bootstrap/dist/css/bootstrap.min.css";
+import "./bower_components/font-awesome/css/font-awesome.min.css";
+import "./bower_components/Ionicons/css/ionicons.min.css";
+import "./dist/css/AdminLTE.min.css";
+import "./dist/css/skins/_all-skins.min.css";
+import "./bower_components/morris.js/morris.css";
+import "./bower_components/jvectormap/jquery-jvectormap.css";
+import "./bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css";
+import "./bower_components/bootstrap-daterangepicker/daterangepicker.css";
+import "./plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css";
+// import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div class="site-wrap" id="home-section">
-          <div class="site-mobile-menu site-navbar-target">
-            <div class="site-mobile-menu-header">
-              <div class="site-mobile-menu-close mt-3">
-                <span class="icon-close2 js-menu-toggle" />
+        <div className="site-wrap" id="home-section">
+          <div className="site-mobile-menu site-navbar-target">
+            <div className="site-mobile-menu-header">
+              <div className="site-mobile-menu-close mt-3">
+                <span className="icon-close2 js-menu-toggle" />
               </div>
             </div>
-            <div class="site-mobile-menu-body" />
+            <div className="site-mobile-menu-body" />
           </div>
 
           <header
-            class="site-navbar js-sticky-header site-navbar-target"
+            className="site-navbar js-sticky-header site-navbar-target"
             role="banner"
           >
-            <div class="container">
-              <div class="row align-items-center position-relative">
-                <div class="site-logo">
-                  <a href="index.html" class="text-black">
-                    <span class="text-primary">Tooth</span>sy
+            <div className="container">
+              <div className="row align-items-center position-relative">
+                <div className="site-logo">
+                  <a href="index.html" className="text-black">
+                    <span className="text-primary">Tooth</span>sy
                   </a>
                 </div>
 
-                <div class="col-12">
-                  <nav class="site-navigation text-center " role="navigation">
-                    <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                <div className="col-12">
+                  <nav className="site-navigation text-center " role="navigation">
+                    <ul className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                       <li>
-                        <a href="#home-section" class="nav-link">
+                        <a href="#home-section" className="nav-link">
                           Home
                         </a>
                       </li>
                       <li>
-                        <a href="#services-section" class="nav-link">
+                        <a href="#services-section" className="nav-link">
                           Services
                         </a>
                       </li>
                       <li>
-                        <a href="#about-section" class="nav-link">
+                        <a href="#about-section" className="nav-link">
                           About Us
                         </a>
                       </li>
                       <li>
-                        <a href="#team-section" class="nav-link">
+                        <a href="#team-section" className="nav-link">
                           Doctors
                         </a>
                       </li>
 
                       <li>
-                        <a href="#testimonials-section" class="nav-link">
+                        <a href="#testimonials-section" className="nav-link">
                           Testimonials
                         </a>
                       </li>
                       <li>
-                        <a href="#blog-section" class="nav-link">
+                        <a href="#blog-section" className="nav-link">
                           Blog
                         </a>
                       </li>
                       <li>
-                        <a href="#contact-section" class="nav-link">
+                        <a href="#contact-section" className="nav-link">
                           Contact
                         </a>
                       </li>
@@ -78,12 +91,12 @@ class App extends Component {
                   </nav>
                 </div>
 
-                <div class="toggle-button d-inline-block d-lg-none">
+                <div className="toggle-button d-inline-block d-lg-none">
                   <a
                     href="#"
-                    class="site-menu-toggle py-5 js-menu-toggle text-black"
+                    className="site-menu-toggle py-5 js-menu-toggle text-black"
                   >
-                    <span class="icon-menu h3" />
+                    <span className="icon-menu h3" />
                   </a>
                 </div>
               </div>
@@ -91,33 +104,33 @@ class App extends Component {
           </header>
 
           <div
-            class="site-section-cover img-bg-section"
+            className="site-section-cover img-bg-section"
             style={{
               "background-image": "url('images/person-transparent-2.png')"
             }}
             data-aos="fade"
           >
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="col-lg-5">
-                  <div class="box-shadow-content">
-                    <div class="block-heading-1">
-                      <span class="d-block mb-3" data-aos="fade-up">
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-lg-5">
+                  <div className="box-shadow-content">
+                    <div className="block-heading-1">
+                      <span className="d-block mb-3" data-aos="fade-up">
                         Welcome To Toothsy
                       </span>
-                      <h1 class="mb-4" data-aos="fade-up" data-aos-delay="100">
+                      <h1 className="mb-4" data-aos="fade-up" data-aos-delay="100">
                         We Care For Your Smile
                       </h1>
                     </div>
 
-                    <p class="mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <p className="mb-4" data-aos="fade-up" data-aos-delay="200">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Amet quod modi, eius minus hic illum perspiciatis!
                       Voluptate facere tempore, libero enim fugit, temporibus
                       non dolor nostrum iure ad. Dolorem, explicabo!
                     </p>
                     <p data-aos="fade-up" data-aos-delay="300">
-                      <a href="#" class="btn btn-primary text-white py-3 px-5">
+                      <a href="#" className="btn btn-primary text-white py-3 px-5">
                         Contact Us
                       </a>
                     </p>
@@ -125,32 +138,32 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div class="img-absolute">
+            <div className="img-absolute">
               <img
                 src="images/person-transparent-2.png"
                 alt="Image"
-                class="img-fluid"
+                className="img-fluid"
               />
             </div>
           </div>
 
-          <div class="site-section block-feature-1-wrap" id="services-section">
-            <div class="container">
-              <div class="row mb-5">
-                <div class="col-12">
-                  <div class="block-heading-1">
+          <div className="site-section block-feature-1-wrap" id="services-section">
+            <div className="container">
+              <div className="row mb-5">
+                <div className="col-12">
+                  <div className="block-heading-1">
                     <span>All Kind Of Services</span>
                     <h2>Dental Services</h2>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up">
-                  <div class="block-feature-1">
-                    <span class="icon">
-                      <span class="flaticon-dentist" />
+              <div className="row">
+                <div className="col-lg-4 col-md-6 mb-5" data-aos="fade-up">
+                  <div className="block-feature-1">
+                    <span className="icon">
+                      <span className="flaticon-dentist" />
                     </span>
-                    <h2 class="text-black">Tooth Extraction</h2>
+                    <h2 className="text-black">Tooth Extraction</h2>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum suscipit quo quae
@@ -159,15 +172,15 @@ class App extends Component {
                 </div>
 
                 <div
-                  class="col-lg-4 col-md-6 mb-5"
+                  className="col-lg-4 col-md-6 mb-5"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <div class="block-feature-1">
-                    <span class="icon">
-                      <span class="flaticon-dental-care" />
+                  <div className="block-feature-1">
+                    <span className="icon">
+                      <span className="flaticon-dental-care" />
                     </span>
-                    <h2 class="text-black">Tooth Fillings</h2>
+                    <h2 className="text-black">Tooth Fillings</h2>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum suscipit quo quae
@@ -176,15 +189,15 @@ class App extends Component {
                 </div>
 
                 <div
-                  class="col-lg-4 col-md-6 mb-5"
+                  className="col-lg-4 col-md-6 mb-5"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  <div class="block-feature-1">
-                    <span class="icon">
-                      <span class="flaticon-dental-1" />
+                  <div className="block-feature-1">
+                    <span className="icon">
+                      <span className="flaticon-dental-1" />
                     </span>
-                    <h2 class="text-black">Braces Install</h2>
+                    <h2 className="text-black">Braces Install</h2>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum suscipit quo quae
@@ -192,12 +205,12 @@ class App extends Component {
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up">
-                  <div class="block-feature-1">
-                    <span class="icon">
-                      <span class="flaticon-baby" />
+                <div className="col-lg-4 col-md-6 mb-5" data-aos="fade-up">
+                  <div className="block-feature-1">
+                    <span className="icon">
+                      <span className="flaticon-baby" />
                     </span>
-                    <h2 class="text-black">Children Clinic</h2>
+                    <h2 className="text-black">Children Clinic</h2>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum suscipit quo quae
@@ -206,15 +219,15 @@ class App extends Component {
                 </div>
 
                 <div
-                  class="col-lg-4 col-md-6 mb-5"
+                  className="col-lg-4 col-md-6 mb-5"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <div class="block-feature-1">
-                    <span class="icon">
-                      <span class="flaticon-tooth" />
+                  <div className="block-feature-1">
+                    <span className="icon">
+                      <span className="flaticon-tooth" />
                     </span>
-                    <h2 class="text-black">Tooth Cleaning</h2>
+                    <h2 className="text-black">Tooth Cleaning</h2>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum suscipit quo quae
@@ -223,15 +236,15 @@ class App extends Component {
                 </div>
 
                 <div
-                  class="col-lg-4 col-md-6 mb-5"
+                  className="col-lg-4 col-md-6 mb-5"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  <div class="block-feature-1">
-                    <span class="icon">
-                      <span class="flaticon-dental" />
+                  <div className="block-feature-1">
+                    <span className="icon">
+                      <span className="flaticon-dental" />
                     </span>
-                    <h2 class="text-black">Patient Records</h2>
+                    <h2 className="text-black">Patient Records</h2>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rerum suscipit quo quae
@@ -242,57 +255,57 @@ class App extends Component {
             </div>
           </div>
 
-          <div class="site-section gradient-bg-1" id="about-section">
-            <div class="container">
-              <div class="row justify-content-center mb-4 block-img-video-1-wrap">
-                <div class="col-8 mb-5">
-                  <figure class="block-img-video-1" data-aos="fade">
-                    <a href="https://vimeo.com/45830194" class="popup-vimeo">
-                      <span class="icon">
-                        <span class="icon-play" />
+          <div className="site-section gradient-bg-1" id="about-section">
+            <div className="container">
+              <div className="row justify-content-center mb-4 block-img-video-1-wrap">
+                <div className="col-8 mb-5">
+                  <figure className="block-img-video-1" data-aos="fade">
+                    <a href="https://vimeo.com/45830194" className="popup-vimeo">
+                      <span className="icon">
+                        <span className="icon-play" />
                       </span>
                       <img
                         src="images/img-video-1.jpg"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </figure>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="row">
-                    <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
-                      <div class="block-counter-1">
-                        <span class="number">
+              <div className="row">
+                <div className="col-12">
+                  <div className="row">
+                    <div className="col-md-6 mb-4 col-lg-0 col-lg-3">
+                      <div className="block-counter-1">
+                        <span className="number">
                           <span data-number="8">0</span>+
                         </span>
-                        <span class="caption">Year of Experience</span>
+                        <span className="caption">Year of Experience</span>
                       </div>
                     </div>
-                    <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
-                      <div class="block-counter-1">
-                        <span class="number">
+                    <div className="col-md-6 mb-4 col-lg-0 col-lg-3">
+                      <div className="block-counter-1">
+                        <span className="number">
                           <span data-number="15">0</span>+
                         </span>
-                        <span class="caption">Expert Doctors</span>
+                        <span className="caption">Expert Doctors</span>
                       </div>
                     </div>
-                    <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
-                      <div class="block-counter-1">
-                        <span class="number">
+                    <div className="col-md-6 mb-4 col-lg-0 col-lg-3">
+                      <div className="block-counter-1">
+                        <span className="number">
                           <span data-number="320">0</span>+
                         </span>
-                        <span class="caption">Health Sections</span>
+                        <span className="caption">Health Sections</span>
                       </div>
                     </div>
-                    <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
-                      <div class="block-counter-1">
-                        <span class="number">
+                    <div className="col-md-6 mb-4 col-lg-0 col-lg-3">
+                      <div className="block-counter-1">
+                        <span className="number">
                           <span data-number="1500">0</span>+
                         </span>
-                        <span class="caption">Happy Smiles</span>
+                        <span className="caption">Happy Smiles</span>
                       </div>
                     </div>
                   </div>
@@ -301,141 +314,141 @@ class App extends Component {
             </div>
           </div>
 
-          <div class="site-section" id="team-section">
-            <div class="container">
-              <div class="row mb-5">
-                <div class="col-12">
-                  <div class="block-heading-1">
+          <div className="site-section" id="team-section">
+            <div className="container">
+              <div className="row mb-5">
+                <div className="col-12">
+                  <div className="block-heading-1">
                     <span>Expert Doctors</span>
                     <h2>Meet Our Team</h2>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up">
-                  <div class="block-team-member-1 text-center rounded">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up">
+                  <div className="block-team-member-1 text-center rounded">
                     <figure>
                       <img
                         src="images/doc_person_1.jpg"
                         alt="Image"
-                        class="img-fluid rounded-circle"
+                        className="img-fluid rounded-circle"
                       />
                     </figure>
-                    <h3 class="font-size-20 text-black">Bob Carry</h3>
-                    <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
+                    <h3 className="font-size-20 text-black">Bob Carry</h3>
+                    <span className="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
                       Doctor
                     </span>
-                    <p class="px-3 mb-3">
+                    <p className="px-3 mb-3">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Atque, repellat. At, soluta. Repellendus vero,
                       consequuntur!
                     </p>
-                    <div class="block-social-1">
+                    <div className="block-social-1">
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-facebook" />
+                        <span className="icon-facebook" />
                       </a>
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-twitter" />
+                        <span className="icon-twitter" />
                       </a>
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-instagram" />
+                        <span className="icon-instagram" />
                       </a>
                     </div>
                   </div>
                 </div>
 
                 <div
-                  class="col-lg-4 col-md-6 mb-4 mb-lg-0"
+                  className="col-lg-4 col-md-6 mb-4 mb-lg-0"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <div class="block-team-member-1 text-center rounded">
+                  <div className="block-team-member-1 text-center rounded">
                     <figure>
                       <img
                         src="images/doc_person_2.jpg"
                         alt="Image"
-                        class="img-fluid rounded-circle"
+                        className="img-fluid rounded-circle"
                       />
                     </figure>
-                    <h3 class="font-size-20 text-black">Jean Smith</h3>
-                    <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
+                    <h3 className="font-size-20 text-black">Jean Smith</h3>
+                    <span className="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
                       Doctor
                     </span>
-                    <p class="px-3 mb-3">
+                    <p className="px-3 mb-3">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Nihil quia veritatis, nam quam obcaecati fuga.
                     </p>
-                    <div class="block-social-1">
+                    <div className="block-social-1">
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-facebook" />
+                        <span className="icon-facebook" />
                       </a>
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-twitter" />
+                        <span className="icon-twitter" />
                       </a>
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-instagram" />
+                        <span className="icon-instagram" />
                       </a>
                     </div>
                   </div>
                 </div>
 
                 <div
-                  class="col-lg-4 col-md-6 mb-4 mb-lg-0"
+                  className="col-lg-4 col-md-6 mb-4 mb-lg-0"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  <div class="block-team-member-1 text-center rounded">
+                  <div className="block-team-member-1 text-center rounded">
                     <figure>
                       <img
                         src="images/doc_person_3.jpg"
                         alt="Image"
-                        class="img-fluid rounded-circle"
+                        className="img-fluid rounded-circle"
                       />
                     </figure>
-                    <h3 class="font-size-20 text-black">Ricky Fisher</h3>
-                    <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
+                    <h3 className="font-size-20 text-black">Ricky Fisher</h3>
+                    <span className="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
                       Dentist
                     </span>
-                    <p class="px-3 mb-3">
+                    <p className="px-3 mb-3">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Quas quidem, laudantium, illum minus numquam voluptas?
                     </p>
-                    <div class="block-social-1">
+                    <div className="block-social-1">
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-facebook" />
+                        <span className="icon-facebook" />
                       </a>
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-twitter" />
+                        <span className="icon-twitter" />
                       </a>
                       <a
                         href="#"
-                        class="btn border-w-2 rounded primary-primary-outline--hover"
+                        className="btn border-w-2 rounded primary-primary-outline--hover"
                       >
-                        <span class="icon-instagram" />
+                        <span className="icon-instagram" />
                       </a>
                     </div>
                   </div>
@@ -445,22 +458,22 @@ class App extends Component {
           </div>
 
           <div
-            class="site-section bg-light block-13"
+            className="site-section bg-light block-13"
             id="testimonials-section"
             data-aos="fade"
           >
-            <div class="container">
-              <div class="text-center mb-5">
-                <div class="block-heading-1">
+            <div className="container">
+              <div className="text-center mb-5">
+                <div className="block-heading-1">
                   <span>Happy Client Says</span>
                   <h2>Testimonial</h2>
                 </div>
               </div>
 
-              <div class="owl-carousel nonloop-block-13">
+              <div className="owl-carousel nonloop-block-13">
                 <div>
-                  <div class="block-testimony-1 text-center">
-                    <blockquote class="mb-4">
+                  <div className="block-testimony-1 text-center">
+                    <blockquote className="mb-4">
                       <p>
                         &ldquo;Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Dolorem, fugit excepturi sapiente
@@ -475,16 +488,16 @@ class App extends Component {
                       <img
                         src="images/person_4.jpg"
                         alt="Image"
-                        class="img-fluid rounded-circle mx-auto"
+                        className="img-fluid rounded-circle mx-auto"
                       />
                     </figure>
-                    <h3 class="font-size-20 text-black">Ricky Fisher</h3>
+                    <h3 className="font-size-20 text-black">Ricky Fisher</h3>
                   </div>
                 </div>
 
                 <div>
-                  <div class="block-testimony-1 text-center">
-                    <blockquote class="mb-4">
+                  <div className="block-testimony-1 text-center">
+                    <blockquote className="mb-4">
                       <p>
                         &ldquo;Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Dolorem, fugit excepturi sapiente
@@ -499,16 +512,16 @@ class App extends Component {
                       <img
                         src="images/person_2.jpg"
                         alt="Image"
-                        class="img-fluid rounded-circle mx-auto"
+                        className="img-fluid rounded-circle mx-auto"
                       />
                     </figure>
-                    <h3 class="font-size-20 text-black">Ken Davis</h3>
+                    <h3 className="font-size-20 text-black">Ken Davis</h3>
                   </div>
                 </div>
 
                 <div>
-                  <div class="block-testimony-1 text-center">
-                    <blockquote class="mb-4">
+                  <div className="block-testimony-1 text-center">
+                    <blockquote className="mb-4">
                       <p>
                         &ldquo;Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Dolorem, fugit excepturi sapiente
@@ -523,16 +536,16 @@ class App extends Component {
                       <img
                         src="images/person_1.jpg"
                         alt="Image"
-                        class="img-fluid rounded-circle mx-auto"
+                        className="img-fluid rounded-circle mx-auto"
                       />
                     </figure>
-                    <h3 class="font-size-20 text-black">Mellisa Griffin</h3>
+                    <h3 className="font-size-20 text-black">Mellisa Griffin</h3>
                   </div>
                 </div>
 
                 <div>
-                  <div class="block-testimony-1 text-center">
-                    <blockquote class="mb-4">
+                  <div className="block-testimony-1 text-center">
+                    <blockquote className="mb-4">
                       <p>
                         &ldquo;Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Dolorem, fugit excepturi sapiente
@@ -547,42 +560,42 @@ class App extends Component {
                       <img
                         src="images/person_3.jpg"
                         alt="Image"
-                        class="img-fluid rounded-circle mx-auto"
+                        className="img-fluid rounded-circle mx-auto"
                       />
                     </figure>
-                    <h3 class="font-size-20 text-black">Robert Steward</h3>
+                    <h3 className="font-size-20 text-black">Robert Steward</h3>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="site-section" id="blog-section">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 text-center mb-5">
-                  <div class="block-heading-1">
+          <div className="site-section" id="blog-section">
+            <div className="container">
+              <div className="row">
+                <div className="col-12 text-center mb-5">
+                  <div className="block-heading-1">
                     <span>Latest Blog Posts</span>
                     <h2>Our Blog</h2>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-6">
+              <div className="row">
+                <div className="col-lg-6">
                   <div>
-                    <a href="single.html" class="mb-4 d-block">
+                    <a href="single.html" className="mb-4 d-block">
                       <img
                         src="images/img-video-1.jpg"
                         alt="Image"
-                        class="img-fluid rounded"
+                        className="img-fluid rounded"
                       />
                     </a>
                     <h2>
                       <a href="single.html">Every Smile Is Precious</a>
                     </h2>
-                    <p class="text-muted mb-3 text-uppercase small">
-                      <span class="mr-2">January 18, 2019</span> By{" "}
-                      <a href="single.html" class="by">
+                    <p className="text-muted mb-3 text-uppercase small">
+                      <span className="mr-2">January 18, 2019</span> By{" "}
+                      <a href="single.html" className="by">
                         James Cooper
                       </a>
                     </p>
@@ -597,58 +610,58 @@ class App extends Component {
                     </p>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="post-entry mb-4">
+                <div className="col-lg-6">
+                  <div className="post-entry mb-4">
                     <h2>
                       <a href="single.html">
                         Consectetur adipisicing elit veritatis culpa
                       </a>
                     </h2>
-                    <p class="text-muted text-uppercase small">
-                      <span class="mr-2">January 18, 2019</span> by{" "}
-                      <a href="single.html" class="by">
+                    <p className="text-muted text-uppercase small">
+                      <span className="mr-2">January 18, 2019</span> by{" "}
+                      <a href="single.html" className="by">
                         James Cooper
                       </a>
                     </p>
                   </div>
 
-                  <div class="post-entry mb-4">
+                  <div className="post-entry mb-4">
                     <h2>
                       <a href="single.html">
                         Consectetur adipisicing elit veritatis culpa
                       </a>
                     </h2>
-                    <p class="text-muted text-uppercase small">
-                      <span class="mr-2">January 18, 2019</span> by{" "}
-                      <a href="single.html" class="by">
+                    <p className="text-muted text-uppercase small">
+                      <span className="mr-2">January 18, 2019</span> by{" "}
+                      <a href="single.html" className="by">
                         James Cooper
                       </a>
                     </p>
                   </div>
 
-                  <div class="post-entry mb-4">
+                  <div className="post-entry mb-4">
                     <h2>
                       <a href="single.html">
                         Consectetur adipisicing elit veritatis culpa
                       </a>
                     </h2>
-                    <p class="text-muted text-uppercase small">
-                      <span class="mr-2">January 18, 2019</span> by{" "}
-                      <a href="single.html" class="by">
+                    <p className="text-muted text-uppercase small">
+                      <span className="mr-2">January 18, 2019</span> by{" "}
+                      <a href="single.html" className="by">
                         James Cooper
                       </a>
                     </p>
                   </div>
 
-                  <div class="post-entry mb-4">
+                  <div className="post-entry mb-4">
                     <h2>
                       <a href="single.html">
                         Consectetur adipisicing elit veritatis culpa
                       </a>
                     </h2>
-                    <p class="text-muted text-uppercase small">
-                      <span class="mr-2">January 18, 2019</span> by{" "}
-                      <a href="single.html" class="by">
+                    <p className="text-muted text-uppercase small">
+                      <span className="mr-2">January 18, 2019</span> by{" "}
+                      <a href="single.html" className="by">
                         James Cooper
                       </a>
                     </p>
@@ -658,71 +671,71 @@ class App extends Component {
             </div>
           </div>
 
-          <div class="site-section bg-light" id="contact-section">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 text-center mb-5">
-                  <div class="block-heading-1">
+          <div className="site-section bg-light" id="contact-section">
+            <div className="container">
+              <div className="row">
+                <div className="col-12 text-center mb-5">
+                  <div className="block-heading-1">
                     <span>Get In Touch</span>
                     <h2>Contact Us</h2>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-6 mb-5">
+              <div className="row">
+                <div className="col-lg-6 mb-5">
                   <form action="#" method="post">
-                    <div class="form-group row">
-                      <div class="col-md-6 mb-4 mb-lg-0">
+                    <div className="form-group row">
+                      <div className="col-md-6 mb-4 mb-lg-0">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="First name"
                         />
                       </div>
-                      <div class="col-md-6">
+                      <div className="col-md-6">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="First name"
                         />
                       </div>
                     </div>
 
-                    <div class="form-group row">
-                      <div class="col-md-12">
+                    <div className="form-group row">
+                      <div className="col-md-12">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Email address"
                         />
                       </div>
                     </div>
 
-                    <div class="form-group row">
-                      <div class="col-md-12">
+                    <div className="form-group row">
+                      <div className="col-md-12">
                         <textarea
                           name=""
                           id=""
-                          class="form-control"
+                          className="form-control"
                           placeholder="Write your message."
                           cols="30"
                           rows="10"
                         />
                       </div>
                     </div>
-                    <div class="form-group row">
-                      <div class="col-md-6 ml-auto">
+                    <div className="form-group row">
+                      <div className="col-md-6 ml-auto">
                         <input
                           type="submit"
-                          class="btn btn-block btn-primary text-white py-3 px-5"
+                          className="btn btn-block btn-primary text-white py-3 px-5"
                           value="Send Message"
                         />
                       </div>
                     </div>
                   </form>
                 </div>
-                <div class="col-lg-4 ml-auto">
-                  <h2 class="text-black">Need a call for presentation?</h2>
+                <div className="col-lg-4 ml-auto">
+                  <h2 className="text-black">Need a call for presentation?</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Dolores, distinctio! Harum quibusdam nisi, illum nulla
@@ -735,22 +748,22 @@ class App extends Component {
             </div>
           </div>
 
-          <footer class="site-footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <h2 class="footer-heading mb-4">About Us</h2>
+          <footer className="site-footer">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="row">
+                    <div className="col-md-5">
+                      <h2 className="footer-heading mb-4">About Us</h2>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Neque facere laudantium magnam voluptatum autem. Amet
                         aliquid nesciunt veritatis aliquam.
                       </p>
                     </div>
-                    <div class="col-md-3 ml-auto">
-                      <h2 class="footer-heading mb-4">Features</h2>
-                      <ul class="list-unstyled">
+                    <div className="col-md-3 ml-auto">
+                      <h2 className="footer-heading mb-4">Features</h2>
+                      <ul className="list-unstyled">
                         <li>
                           <a href="#">About Us</a>
                         </li>
@@ -765,24 +778,24 @@ class App extends Component {
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-3" />
+                    <div className="col-md-3" />
                   </div>
                 </div>
-                <div class="col-md-4 ml-auto">
-                  <div class="mb-5">
-                    <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
+                <div className="col-md-4 ml-auto">
+                  <div className="mb-5">
+                    <h2 className="footer-heading mb-4">Subscribe to Newsletter</h2>
                     <form>
-                      <div class="input-group mb-3">
+                      <div className="input-group mb-3">
                         <input
                           type="text"
-                          class="form-control border-secondary text-white bg-transparent"
+                          className="form-control border-secondary text-white bg-transparent"
                           placeholder="Enter Email"
                           aria-label="Enter Email"
                           aria-describedby="button-addon2"
                         />
-                        <div class="input-group-append">
+                        <div className="input-group-append">
                           <button
-                            class="btn btn-primary text-white"
+                            className="btn btn-primary text-white"
                             type="button"
                             id="button-addon2"
                           >
@@ -790,26 +803,26 @@ class App extends Component {
                           </button>
                         </div>
                       </div>
-                      <h2 class="footer-heading mb-4">Follow Us</h2>
-                      <a href="#about-section" class="smoothscroll pl-0 pr-3">
-                        <span class="icon-facebook" />
+                      <h2 className="footer-heading mb-4">Follow Us</h2>
+                      <a href="#about-section" className="smoothscroll pl-0 pr-3">
+                        <span className="icon-facebook" />
                       </a>
-                      <a href="#" class="pl-3 pr-3">
-                        <span class="icon-twitter" />
+                      <a href="#" className="pl-3 pr-3">
+                        <span className="icon-twitter" />
                       </a>
-                      <a href="#" class="pl-3 pr-3">
-                        <span class="icon-instagram" />
+                      <a href="#" className="pl-3 pr-3">
+                        <span className="icon-instagram" />
                       </a>
-                      <a href="#" class="pl-3 pr-3">
-                        <span class="icon-linkedin" />
+                      <a href="#" className="pl-3 pr-3">
+                        <span className="icon-linkedin" />
                       </a>
                     </form>
                   </div>
                 </div>
               </div>
-              <div class="row pt-5 mt-5 text-center">
-                <div class="col-md-12">
-                  <div class="border-top pt-5">
+              <div className="row pt-5 mt-5 text-center">
+                <div className="col-md-12">
+                  <div className="border-top pt-5">
                     <p>
                       Link back to Colorlib can't be removed. Template is
                       licensed under CC BY 3.0. --> Copyright &copy;
@@ -817,7 +830,7 @@ class App extends Component {
                         document.write(new Date().getFullYear());
                       </script>{" "}
                       All rights reserved | This template is made with{" "}
-                      <i class="icon-heart" aria-hidden="true" /> by{" "}
+                      <i className="icon-heart" aria-hidden="true" /> by{" "}
                       <a href="https://colorlib.com" target="_blank">
                         Colorlib
                       </a>
