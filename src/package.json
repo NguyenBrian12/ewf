@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "admin-lte",
   "version": "2.4.10",
   "main": "dist/js/adminlte.min.js",
@@ -57,5 +58,18 @@
     "raphael": "^2.2.7",
     "select2": "^4.0.3",
     "slimscroll": "^0.9.1"
+=======
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+>>>>>>> fcf2c3770b62b6376d81b344aa02f11de12051d5
   }
 }
